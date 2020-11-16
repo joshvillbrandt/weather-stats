@@ -1,6 +1,4 @@
 import re
-import time
-import requests
 
 
 class MockApi():
