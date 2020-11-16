@@ -1,8 +1,8 @@
 import requests
 
 
-def download_data():
-    url = 'https://www.metaweather.com/api/location/44418/2020/11/13/'
+def download_data(hostname):
+    url = f'{hostname}/api/location/44418/2020/11/13/'
     response = requests.get(url)
 
     # make sure the request was successful
