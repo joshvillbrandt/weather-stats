@@ -22,6 +22,8 @@ cd weather-stats
 
 Then run docker:
 
+| Command | Notes |
+| --- | --- |
 | `docker-compose up` | Run the app and quit when the app exits. |
 | `docker-compose run app /bin/bash` | Start the container and open a shell. |
 | `docker-compose run app pytest -rA` | Run the tests. |
