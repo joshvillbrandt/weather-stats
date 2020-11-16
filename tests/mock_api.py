@@ -4,8 +4,8 @@ import re
 class MockApi():
     def __init__(self, mocker, hostname):
         # routes
-        location_data_url = re.compile(hostname + '/api/location/44418/2020/11/13/')
-        mocker.get(location_data_url, json=self._get_location_data_url)
+        location_date_url = re.compile(hostname + '/api/location/44418/2020/11/13/')
+        mocker.get(location_date_url, json=self._get_location_date)
 
         # introspection
         self.last_request = None
@@ -14,7 +14,7 @@ class MockApi():
     def _handle_disconnect(self):
         pass
 
-    def _get_location_data_url(self, request, context):
+    def _get_location_date(self, request, context):
         self._handle_disconnect()
 
         # introspection
