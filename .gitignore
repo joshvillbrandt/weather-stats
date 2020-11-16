@@ -1,0 +1,16 @@
+# environment
+.idea
+.vscode
+.DS_Store
+
+# python
+venv
+.venv
+*.egg-info
+build
+dist
+*.pyc
+__pycache__
+.coverage
+coverage
+.results

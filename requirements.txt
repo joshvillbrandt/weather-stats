@@ -1,0 +1,5 @@
+requests==2.22.*
+requests-toolbelt==0.9.*
+
+flake8==3.7.*
+pytest==5.3.*
